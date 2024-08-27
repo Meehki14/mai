@@ -1,4 +1,4 @@
 frisbees = 3
 cost_of_frisbees = 15
-print('the total cost is 45$ , total_cost, sep=''')
-total_cost=45
+total_cost = frisbees * cost_of_frisbees
+print("the total cost is $", total_cost, sep="")
